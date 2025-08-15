@@ -36,6 +36,6 @@ _Add a screenshot or GIF here if you have one._
 2. Open `index.html` in any modern web browser (no setup needed).
 
 ```bash
-git clone https://github.com/your-username/CloudCalculator.git
+git clone https://github.com/noorkaazi/CloudCalculator.git
 cd CloudCalculator
 open index.html
