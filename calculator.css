@@ -66,13 +66,12 @@ body{
   animation: drift-loop 120s linear infinite;
 }
 
-/* Seamless full-screen drift */
 @keyframes drift-loop {
   0% {
-    transform: translateX(100vw); /* well off-screen to the left */
+    transform: translateX(100vw);
   }
   100% {
-    transform: translateX(-150vw);  /* well off-screen to the right */
+    transform: translateX(-150vw); 
   }
 }
 
@@ -98,4 +97,5 @@ button:active{
 .operator-btn:active{
     background-color: #9fbcff;
     opacity: 0.5;
+
 }
